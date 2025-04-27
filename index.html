@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Tropicália</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre" tabindex="0">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#artistas" tabindex="0">Artistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato" tabindex="0">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" tabindex="0" aria-labelledby="sobre-title">
+            <h2 id="sobre-title">Sobre a Tropicália</h2>
+            <p>A Tropicália foi um movimento cultural brasileiro que surgiu no final da década de 1960, misturando música, artes plásticas e teatro.</p>
+            <img src="tropicalia.jpg" alt="Imagem representativa do movimento Tropicália" class="img-fluid">
+        </section>
+
+        <section id="artistas" tabindex="0" aria-labelledby="artistas-title">
+            <h2 id="artistas-title">Artistas da Tropicália</h2>
+            <ul>
+                <li>Caetano Veloso</li>
+                <li>Gilberto Gil</li>
+                <li>Os Mutantes</li>
+            </ul>
+        </section>
+
+        <section id="contato" tabindex="0" aria-labelledby="contato-title">
+            <h2 id="contato-title">Contato</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome" aria-required="true">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" aria-required="true">
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tropicália. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    </header>
+</body>
+</html>
